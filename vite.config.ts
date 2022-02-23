@@ -31,10 +31,17 @@ export default defineConfig({
     // https://github.com/hannoeru/vite-plugin-pages
     Pages({
       extensions: ['vue', 'md'],
+      dirs: [
+        { dir: "src/pages", baseRoute: "" },
+        { dir: "src/demo/pages", baseRoute: "demo" },
+      ],
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
-    Layouts(),
+    Layouts({
+      layoutsDirs: 'src/layouts',
+      defaultLayout: 'default'
+    }),
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
@@ -50,6 +57,9 @@ export default defineConfig({
 
     // https://github.com/antfu/unplugin-vue-components
     Components({
+      // relative paths to the directory to search for components.
+      dirs: ['src/components'],
+
       // allow auto load markdown components under `./src/components/`
       extensions: ['vue', 'md'],
 
@@ -84,6 +94,11 @@ export default defineConfig({
     Markdown({
       wrapperClasses: markdownWrapperClasses,
       headEnabled: true,
+      // include and exclude
+      // https://github.com/antfu/vite-plugin-md/blob/b8ddb010501f55680f765b36577d8f0d9edc5e39/src/types.ts#L122
+      // https://github.com/rollup/plugins/tree/master/packages/pluginutils#include-and-exclude
+      include: ['src/**/*.md'],
+      exclude: ['docs'],
       markdownItSetup(md) {
         // https://prismjs.com/
         md.use(Prism)
