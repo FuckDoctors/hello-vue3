@@ -1,9 +1,5 @@
 <!-- markdownlint-disable MD041 -->
 <p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
-</p>
-
-<p align='center'>
 Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 </p>
 
@@ -16,7 +12,7 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 <br>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/antfu/vitesse/blob/main/README.zh-CN.md">简体中文</a>
+<b>English</b> | <a href="./README.zh-CN.md">简体中文</a>
 <!-- Contributors: Thanks for geting interested, however we DON'T accept new transitions to the README, thanks. -->
 </p>
 
@@ -55,8 +51,6 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 - 🦾 TypeScript, of course
 
 - ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions)
-
-- ☁️ Deploy on Netlify, zero-config
 
 <br>
 

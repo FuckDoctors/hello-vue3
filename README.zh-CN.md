@@ -1,9 +1,5 @@
 <!-- markdownlint-disable MD041 -->
 <p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
-</p>
-
-<p align='center'>
 快速地<sup><em>Vitesse</em></sup> 创建 Web 应用
 <br>
 </p>
@@ -17,7 +13,7 @@
 <br>
 
 <p align='center'>
-<a href="https://github.com/antfu/vitesse/blob/main/README.md">English</a> | <b>简体中文</b>
+<a href="./README.md">English</a> | <b>简体中文</b>
 </p>
 
 <br>
@@ -55,8 +51,6 @@
 - 🦾 TypeScript, 当然
 
 - ⚙️ 结合 [GitHub Actions](https://github.com/features/actions)，使用 [Vitest](https://github.com/vitest-dev/vitest) 进行单元测试, [Cypress](https://cypress.io/) 进行 E2E 测试
-
-- ☁️ 零配置部署 Netlify
 
 <br>
 
