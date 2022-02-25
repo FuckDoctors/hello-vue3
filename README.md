@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 <p align='center'>
   <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
 </p>
@@ -115,14 +116,14 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 As this template is strongly opinionated, the following provides a curated list for community-maintained variations with different preferences and feature sets. Check them out as well. PR to add yours is also welcome!
 
-###### Official
+### Official
 
 - [vitesse-lite](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
 - [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse for Nuxt 3
 - [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
 - [vitesse-webext](https://github.com/antfu/vitesse-webext) - WebExtension Vite starter template
 
-###### Community
+### Community
 
 - [vitesse-addons](https://github.com/JohnCampionJr/vitesse-addons) by [@johncampionjr](https://github.com/johncampionjr) - additional options for integrations, including [Prettier](https://prettier.io) and [Storybook](https://storybook.js.org)
 - [vitesse-ssr-template](https://github.com/frandiox/vitesse-ssr-template) by [@frandiox](https://github.com/frandiox) - Vitesse with SSR
@@ -133,7 +134,7 @@ As this template is strongly opinionated, the following provides a curated list 
 - [vitesse-enterprise](https://github.com/FranciscoKloganB/vitesse-enterprise) by [@FranciscoKloganB](https://github.com/FranciscoKloganB) - Consistent coding styles regardless of team-size.
 - [vitecamp](https://github.com/nekobc1998923/vitecamp) by [@nekobc1998923](https://github.com/nekobc1998923) - Like Vitesse but without SSG/SSR/File based routing, includes Element Plus
 
-## Try it now!
+## Try it now
 
 > Vitesse requires Node >=14
 
@@ -167,7 +168,7 @@ And, enjoy :)
 
 ### Development
 
-Just run and visit http://localhost:3333
+Just run and visit <http://localhost:3333>
 
 ```bash
 pnpm dev

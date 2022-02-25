@@ -1,10 +1,11 @@
+<!-- markdownlint-disable MD041 -->
 <p align='center'>
   <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
 </p>
 
 <p align='center'>
 快速地<sup><em>Vitesse</em></sup> 创建 Web 应用
-<br> 
+<br>
 </p>
 
 <br>
@@ -35,7 +36,7 @@
 
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
-- 🎨 [Windi CSS](https://github.com/windicss/windicss) - 下一代实用的原子css框架
+- 🎨 [Windi CSS](https://github.com/windicss/windicss) - 下一代实用的原子 css 框架
 
 - 😃 [各种图标集为你所用，从不妥协](https://github.com/antfu/unplugin-icons)
 
@@ -68,7 +69,7 @@
 
 ### Icons
 
-- [Iconify](https://iconify.design) - 使用任意的图标集，浏览：[🔍Icônes](https://icones.netlify.app/) 
+- [Iconify](https://iconify.design) - 使用任意的图标集，浏览：[🔍Icônes](https://icones.netlify.app/)
 - [`unplugin-icons`](https://github.com/antfu/unplugin-icons) - 组件化的图标
 
 ### 插件
@@ -95,6 +96,7 @@
 - [ESLint](https://eslint.org/) 配置为 [@antfu/eslint-config](https://github.com/antfu/eslint-config), 单引号, 无分号.
 
 ### 开发工具
+
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://github.com/vitest-dev/vitest) - 基于 Vite 的单元测试框架
 - [Cypress](https://cypress.io/) - E2E 测试
@@ -114,18 +116,18 @@
 
 由于这个模板的业务场景非常的局限，下面提供了一个精心策划的列表，列出了社区维护的具有不同偏好和功能集的衍生项目。也可以看看他们。当然也欢迎你 PR 提供自己的项目！
 
-###### 官方
+### 官方
 
 - [vitesse-lite](https://github.com/antfu/vitesse-lite) - Vitesse 的轻量版本
 - [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse 的 Nuxt 3 版本
 - [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse 的 Nuxt2 桥接版本
 - [vitesse-webext](https://github.com/antfu/vitesse-webext) - 开箱即用的浏览器扩展 vite 模板
 
-###### 社区
+### 社区
 
 [查看英文版](./README.md#community)
 
-## 现在可以试试!
+## 现在可以试试
 
 > Vitesse 需要 Node 版本 >=14
 
@@ -149,7 +151,7 @@ pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 
 - [ ] 在 `LICENSE` 中改变作者名
 - [ ] 在 `App.vue` 中改变标题
-- [ ] 在 `public` 目录下改变favicon
+- [ ] 在 `public` 目录下改变 favicon
 - [ ] 移除 `.github` 文件夹中包含资助的信息
 - [ ] 整理 README 并删除路由
 
@@ -159,7 +161,7 @@ pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 
 ### 开发
 
-只需要执行以下命令就可以在 http://localhost:3333 中看到
+只需要执行以下命令就可以在 <http://localhost:3333> 中看到
 
 ```bash
 pnpm dev

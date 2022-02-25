@@ -2,6 +2,7 @@
 title: About
 ---
 
+<!-- markdownlint-disable MD033 -->
 <div class="text-center">
   <!-- You can use Vue components inside markdown -->
   <carbon-dicom-overlay class="text-4xl -mb-6 m-auto" />

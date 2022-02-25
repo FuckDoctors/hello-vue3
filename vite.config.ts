@@ -20,6 +20,7 @@ const markdownWrapperClasses = 'prose prose-sm m-auto text-left'
 export default defineConfig({
   resolve: {
     alias: {
+      '@/': `${path.resolve(__dirname)}/`,
       '~/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
@@ -32,15 +33,15 @@ export default defineConfig({
     Pages({
       extensions: ['vue', 'md'],
       dirs: [
-        { dir: "src/pages", baseRoute: "" },
-        { dir: "src/demo/pages", baseRoute: "demo" },
+        { dir: 'src/pages', baseRoute: '' },
+        { dir: 'src/demo/pages', baseRoute: 'demo' },
       ],
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
     Layouts({
       layoutsDirs: 'src/layouts',
-      defaultLayout: 'default'
+      defaultLayout: 'default',
     }),
 
     // https://github.com/antfu/unplugin-auto-import
@@ -168,15 +169,8 @@ export default defineConfig({
   },
 
   optimizeDeps: {
-    include: [
-      'vue',
-      'vue-router',
-      '@vueuse/core',
-      '@vueuse/head',
-    ],
-    exclude: [
-      'vue-demi',
-    ],
+    include: ['vue', 'vue-router', '@vueuse/core', '@vueuse/head'],
+    exclude: ['vue-demi'],
   },
 
   // https://github.com/vitest-dev/vitest
