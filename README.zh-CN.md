@@ -88,6 +88,8 @@
 
 - 使用 Composition API 地 [`<script setup>` SFC 语法](https://github.com/vuejs/rfcs/pull/227)
 - [ESLint](https://eslint.org/) 配置为 [@antfu/eslint-config](https://github.com/antfu/eslint-config), 单引号, 无分号.
+- [commitizen](https://github.com/commitizen/cz-cli)
+  [commitizen init doesn't work with pnpm #858](https://github.com/commitizen/cz-cli/issues/858)
 
 ### 开发工具
 

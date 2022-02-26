@@ -88,6 +88,8 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 - Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
 - [ESLint](https://eslint.org/) with [@antfu/eslint-config](https://github.com/antfu/eslint-config), single quotes, no semi.
+- [commitizen](https://github.com/commitizen/cz-cli)
+  [commitizen init doesn't work with pnpm #858](https://github.com/commitizen/cz-cli/issues/858)
 
 ### Dev tools
 
