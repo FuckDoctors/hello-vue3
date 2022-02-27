@@ -11,3 +11,8 @@ intro:
   hi: こんにちは、{name}!
   whats-your-name: 君の名は。
 not-found: 見つかりませんでした
+
+guide:
+  reactivity:
+    setup-sugar:
+      desc: setup sugar

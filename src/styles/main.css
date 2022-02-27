@@ -1,5 +1,7 @@
 @import './markdown.css';
 
+@import './guide.scss';
+
 html,
 body,
 #app {
