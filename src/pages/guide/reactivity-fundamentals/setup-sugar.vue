@@ -17,9 +17,3 @@ function increment() {
   state.count++
 }
 </script>
-
-<route lang="yaml">
-meta:
-  layout: guide/sub
-  subTitle: Reactivity Fundamentals
-</route>

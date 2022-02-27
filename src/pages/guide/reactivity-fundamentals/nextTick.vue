@@ -1,7 +1,9 @@
 <template>
-  <button class="btn" @click="increment">
-    {{ state.count }}
-  </button>
+  <div>
+    <button class="btn" @click="increment">
+      {{ state.count }}
+    </button>
+  </div>
 </template>
 
 <script setup>
@@ -14,9 +16,3 @@ const increment = () => {
   })
 }
 </script>
-
-<route lang="yaml">
-meta:
-  layout: guide/sub
-  subTitle: Reactivity Fundamentals
-</route>

@@ -16,6 +16,10 @@ import 'virtual:windi-devtools'
 
 const routes = setupLayouts(generatedRoutes)
 
+/* eslint no-console: "warn" */
+console.log('pages', generatedRoutes)
+console.log('layouts', routes)
+
 // https://github.com/antfu/vite-ssg
 export const createApp = ViteSSG(
   App,
