@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { isDark, toggleDark } from '~/composables'
 
+const router = useRouter()
+
 const { t, availableLocales, locale } = useI18n()
 
 const toggleLocales = () => {
@@ -12,6 +14,10 @@ const toggleLocales = () => {
 
 <template>
   <nav class="text-xl mt-6">
+    <a class="icon-btn mx-2" :title="t('button.back')" @click="router.back()">
+      <carbon-arrow-left />
+    </a>
+
     <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
       <carbon-campsite />
     </router-link>
@@ -40,7 +46,7 @@ const toggleLocales = () => {
     <a
       class="icon-btn mx-2"
       rel="noreferrer"
-      href="https://github.com/antfu/vitesse"
+      href="https://github.com/FuckDoctors/hello-vue3"
       target="_blank"
       title="GitHub"
     >

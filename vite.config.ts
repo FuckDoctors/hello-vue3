@@ -45,6 +45,7 @@ export default defineConfig({
         { dir: 'src/pages', baseRoute: '' },
         { dir: 'src/demo/pages', baseRoute: 'demo' },
       ],
+      exclude: ['src/**/components/*.vue'],
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts

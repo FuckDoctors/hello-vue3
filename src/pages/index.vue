@@ -54,6 +54,10 @@ const { t } = useI18n()
         {{ t('button.go') }}
       </button>
     </div>
+
+    <div class="guide">
+      <router-link to="guide"> Vue3 向导学习 </router-link>
+    </div>
   </div>
 </template>
 

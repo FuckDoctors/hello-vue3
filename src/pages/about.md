@@ -9,6 +9,8 @@ title: About
   <h3>About</h3>
 </div>
 
+Learning by doing, 跟谁 vue 官网学 vue3.
+
 [Vitesse](https://github.com/antfu/vitesse) is an opinionated [Vite](https://github.com/vitejs/vite) starter template made by [@antfu](https://github.com/antfu) for mocking apps swiftly. With **file-based routing**, **components auto importing**, **markdown support**, I18n, PWA and uses **WindiCSS** for UI.
 
 ```js
@@ -19,4 +21,4 @@ function vitesse() {
 }
 ```
 
-Check out the [GitHub repo](https://github.com/antfu/vitesse) for more details.
+Check out the [GitHub repo](https://github.com/FuckDoctors/hello-vue3) for more details.
