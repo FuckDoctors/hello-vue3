@@ -43,6 +43,7 @@ export default defineConfig({
       extensions: ['vue', 'md'],
       dirs: [
         { dir: 'src/pages', baseRoute: '' },
+        { dir: 'src/pages/guide', baseRoute: 'guide' },
         { dir: 'src/demo/pages', baseRoute: 'demo' },
       ],
       exclude: ['src/**/components/*.vue'],
