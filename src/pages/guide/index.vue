@@ -5,6 +5,7 @@
       <router-link to="/guide/reactivity-fundamentals" class="link">
         Reactivity Fundamentals
       </router-link>
+      <router-view />
     </nav>
   </div>
 </template>
@@ -13,5 +14,5 @@
 
 <route lang="yaml">
 meta:
-  layout: guide
+  layout: guide/index
 </route>

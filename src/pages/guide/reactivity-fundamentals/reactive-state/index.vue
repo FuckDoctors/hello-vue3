@@ -27,5 +27,6 @@ export default {
 
 <route lang="yaml">
 meta:
-  layout: guide
+  layout: guide/sub
+  subTitle: Reactivity Fundamentals
 </route>
