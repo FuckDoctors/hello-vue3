@@ -13,6 +13,12 @@
     <router-link to="/guide/reactivity-fundamentals/nextTick" class="link">
       nextTick
     </router-link>
+    <router-link to="/guide/reactivity-fundamentals/ref" class="link">
+      refs
+    </router-link>
+    <router-link to="/guide/reactivity-fundamentals/limitation" class="link">
+      limitation
+    </router-link>
     <router-view />
   </div>
 </template>
