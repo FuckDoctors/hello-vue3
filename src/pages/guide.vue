@@ -9,6 +9,11 @@
       <router-link to="/guide/reactivity-fundamentals" class="link">
         Reactivity Fundamentals
       </router-link>
+
+      <router-link to="/guide/computed-properties" class="link">
+        Computed Properties
+      </router-link>
+
       <router-view />
     </nav>
   </div>
