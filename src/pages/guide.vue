@@ -14,6 +14,10 @@
         Computed Properties
       </router-link>
 
+      <router-link to="/guide/class-style" class="link">
+        Class and style
+      </router-link>
+
       <router-view />
     </nav>
   </div>
