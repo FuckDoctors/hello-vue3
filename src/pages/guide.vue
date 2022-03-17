@@ -18,6 +18,10 @@
         Class and style
       </router-link>
 
+      <router-link to="/guide/event-handling" class="link">
+        Event Handling
+      </router-link>
+
       <router-view />
     </nav>
   </div>
