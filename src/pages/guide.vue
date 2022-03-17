@@ -22,6 +22,8 @@
         Event Handling
       </router-link>
 
+      <router-link to="/guide/watchers" class="link"> Watchers </router-link>
+
       <router-view />
     </nav>
   </div>
