@@ -13,5 +13,9 @@
     Deep Watchers
   </router-link>
 
+  <router-link to="/guide/watchers/watchEffect" class="link">
+    watchEffect
+  </router-link>
+
   <router-view />
 </template>
