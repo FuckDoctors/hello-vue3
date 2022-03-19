@@ -24,6 +24,10 @@
 
       <router-link to="/guide/watchers" class="link"> Watchers </router-link>
 
+      <router-link to="/guide/template-refs" class="link">
+        Template Refs
+      </router-link>
+
       <router-view />
     </nav>
   </div>
