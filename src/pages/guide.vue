@@ -28,6 +28,10 @@
         Template Refs
       </router-link>
 
+      <router-link to="/guide/component-basic" class="link">
+        Component Basic
+      </router-link>
+
       <router-view />
     </nav>
   </div>
