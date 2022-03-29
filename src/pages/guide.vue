@@ -32,6 +32,10 @@
         Component Basic
       </router-link>
 
+      <router-link to="/guide/in-depth" class="link">
+        Components In-Depth
+      </router-link>
+
       <router-view />
     </nav>
   </div>
