@@ -4,6 +4,9 @@
   <router-link to="/guide/in-depth/props" class="link"> Props </router-link>
 
   <router-link to="/guide/in-depth/events" class="link"> Events </router-link>
+  <router-link to="/guide/in-depth/fallthrough" class="link">
+    Fallthrough Attributes
+  </router-link>
 
   <router-view />
 </template>

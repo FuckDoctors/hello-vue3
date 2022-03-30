@@ -12,5 +12,7 @@
     "*.css": "postcss"
   },
   "editor.formatOnSave": false,
-  "stylelint.validate": ["css", "less", "postcss", "html", "vue"]
+  "stylelint.validate": ["css", "less", "scss", "postcss", "html", "vue"],
+  "stylelint.packageManager": "pnpm",
+  "eslint.packageManager": "pnpm"
 }
