@@ -12,4 +12,18 @@ module.exports = {
     // Turns of all the rules that would interfere with Prettier
     'stylelint-config-prettier',
   ],
+  rules: {
+    'selector-no-qualifying-type': [
+      true,
+      {
+        ignore: ['attribute', 'class', 'id'],
+      },
+    ],
+    'selector-max-type': [
+      2,
+      {
+        ignore: ['child', 'compounded', 'descendant', 'next-sibling'],
+      },
+    ],
+  },
 }
