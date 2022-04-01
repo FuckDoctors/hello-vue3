@@ -11,6 +11,10 @@
 
   <router-link to="/guide/in-depth/slots" class="link"> Slots </router-link>
 
+  <router-link to="/guide/in-depth/provide-inject" class="link">
+    Provide / Inject
+  </router-link>
+
   <router-view />
 </template>
 
